@@ -1,0 +1,15 @@
+---
+export interface Props {
+      id: string
+      name: string
+      reward: string
+      amount: number
+      number: string[]
+    }
+
+const { name } = Astro.props
+---
+
+<section>
+  <h1>{name}</h1>
+</section>
